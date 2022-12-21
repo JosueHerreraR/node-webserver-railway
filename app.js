@@ -112,56 +112,7 @@ app.listen( port, () => {
 });
 */
 
-// 93. Usando parciales con HBS
-
-/*
-const express = require('express');
-const hbs = require('hbs');
-
-const app = express();
-const port = 8082;
-
-// Handlebars 
-app.set('view engine', 'hbs');
-hbs.registerPartials( __dirname + '/views/partials');
-
-// Servir contenido estático
-app.use(express.static('public'));
-
-app.get('/', function (req, res) {
-    res.render( 'home', {
-        nombre: 'Josue Herrera',
-        titulo: 'Curso de Node JS',
-        caracteristica: 'Curso de Induccion de Upnify'
-    });
-});
-
-app.get('/generic', function (req, res) {
-    res.render( 'generic', {
-        nombre: 'Josue Herrera',
-        titulo: 'Curso de Node JS',
-        caracteristica: 'Curso de Induccion de Upnify'
-    });
-});
-
-app.get('/elements', function (req, res) {
-    res.render( 'elements', {
-        nombre: 'Josue Herrera',
-        titulo: 'Curso de Node JS',
-        caracteristica: 'Curso de Induccion de Upnify'
-    });
-});
-
-app.get('*', function (req, res) {
-    res.sendFile( __dirname + '/public/404.html');
-});
-
-app.listen( port, () => {
-    console.log(`Escuchando desde el puerto: http://localhost:${port}`);
-});
-*/
-
-// 94. Preparar Webserver para subirlo a un hosting
+// 93. Usando parciales con HBS y 94. Preparar Webserver para subirlo a un hosting
 
 require('dotenv').config();
 const express = require('express');
