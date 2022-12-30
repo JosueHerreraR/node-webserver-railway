@@ -1,5 +1,5 @@
 
-// 88. Introduccion a EXPRESS
+// Sección 7 => 88. Introduccion a EXPRESS
 
 /*
 const express = require('express')
@@ -23,7 +23,7 @@ app.listen( port, () => {
 });
 */
 
-// 89. Servir contenido estático
+// Sección 7 => 89. Servir contenido estático
 
 /*
 const express = require('express')
@@ -48,7 +48,7 @@ app.listen( port, () => {
 });
 */
 
-// 90. Servir un sitio web completo
+// Sección 7 => 90. Servir un sitio web completo
 
 /*
 const express = require('express')
@@ -74,7 +74,7 @@ app.listen( port, () => {
 });
 */
 
-// 91. Handlebars y 92. Argumentos desde el controlador
+// Sección 7 => 91. Handlebars y 92. Argumentos desde el controlador
 
 /*
 const express = require('express')
@@ -112,7 +112,7 @@ app.listen( port, () => {
 });
 */
 
-// 93. Usando parciales con HBS y 94. Preparar Webserver para subirlo a un hosting
+// Sección 7 => 93. Usando parciales con HBS y 94. Preparar Webserver para subirlo a un hosting
 
 require('dotenv').config();
 const express = require('express');
